@@ -1,4 +1,4 @@
-#### script to get tokent from Phase IV leap gateway, 
+#### script to get token from Phase IV leap gateway, 
 #### then get last reading and publish that reading
 #### to the mqtt broker
 
@@ -22,7 +22,7 @@ def on_connect(client, userdata, flags, rc):
     print("Connected with result code "+str(rc))
     send_payload()
 
-# define 
+# define on_message
 def on_message(client, userdata, msg):
     print(msg.topic+" "+str(msg.payload))
 

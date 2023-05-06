@@ -3,7 +3,7 @@
 #### to the mqtt broker
 
 import paho.mqtt.client as mqtt
-from dev.testing.v2_get_token_readings import get_reading
+from v2_get_token_readings import get_reading
 import json
 
 # assign get_reading() method to json_lastReading variable

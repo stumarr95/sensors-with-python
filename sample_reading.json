@@ -1,0 +1,106 @@
+{
+	"deviceId": "50325FFFFEE6C0E4",
+	"readingTimestamp": "2023-05-06T19:31:14.973827Z",
+	"receivedTimestamp": "2023-05-06T19:31:26.8830217Z",
+	"values": [{
+		"componentIndex": 0,
+		"sensorIndex": 0,
+		"valueIndex": 0,
+		"sensorValueDefinitionId": 6,
+		"value": 0,
+		"status": "Success",
+		"label": "Amp Clamp",
+		"iconUrl": "/images/Current_16x16.png",
+		"units": ""
+	}, {
+		"componentIndex": 1,
+		"sensorIndex": 0,
+		"valueIndex": 0,
+		"sensorValueDefinitionId": 7,
+		"value": 0.065,
+		"status": "Success",
+		"label": "Axial Accel Max (Impact)",
+		"iconUrl": "/images/Vibration_16x16.png",
+		"units": ""
+	}, {
+		"componentIndex": 1,
+		"sensorIndex": 0,
+		"valueIndex": 1,
+		"sensorValueDefinitionId": 8,
+		"value": 0.015,
+		"status": "Success",
+		"label": "Axial Accel RMS (Fatigue)",
+		"iconUrl": "/images/Vibration_16x16.png",
+		"units": ""
+	}, {
+		"componentIndex": 1,
+		"sensorIndex": 0,
+		"valueIndex": 2,
+		"sensorValueDefinitionId": 9,
+		"value": 0.298,
+		"status": "Success",
+		"label": "Axial Velocity RMS (Friction)",
+		"iconUrl": "/images/Vibration_16x16.png",
+		"units": ""
+	}, {
+		"componentIndex": 1,
+		"sensorIndex": 0,
+		"valueIndex": 3,
+		"sensorValueDefinitionId": 10,
+		"value": 4.348,
+		"status": "Success",
+		"label": "Axial Crest Factor (Instability)",
+		"iconUrl": "/images/Vibration_16x16.png",
+		"units": ""
+	}, {
+		"componentIndex": 1,
+		"sensorIndex": 0,
+		"valueIndex": 4,
+		"sensorValueDefinitionId": 11,
+		"value": 0.099,
+		"status": "Success",
+		"label": "Radial Accel Max (Impact)",
+		"iconUrl": "/images/Vibration_16x16.png",
+		"units": ""
+	}, {
+		"componentIndex": 1,
+		"sensorIndex": 0,
+		"valueIndex": 5,
+		"sensorValueDefinitionId": 12,
+		"value": 0.027,
+		"status": "Success",
+		"label": "Radial Accel RMS (Fatigue)",
+		"iconUrl": "/images/Vibration_16x16.png",
+		"units": ""
+	}, {
+		"componentIndex": 1,
+		"sensorIndex": 0,
+		"valueIndex": 6,
+		"sensorValueDefinitionId": 13,
+		"value": 1.202,
+		"status": "Success",
+		"label": "Radial Velocity RMS (Friction)",
+		"iconUrl": "/images/Vibration_16x16.png",
+		"units": ""
+	}, {
+		"componentIndex": 1,
+		"sensorIndex": 0,
+		"valueIndex": 7,
+		"sensorValueDefinitionId": 5,
+		"value": 3.592,
+		"status": "Success",
+		"label": "Radial Crest Factor (Instability)",
+		"iconUrl": "/images/Vibration_16x16.png",
+		"units": ""
+	}, {
+		"componentIndex": 1,
+		"sensorIndex": 1,
+		"valueIndex": 0,
+		"sensorValueDefinitionId": 14,
+		"value": 21.87,
+		"status": "Success",
+		"label": "Temp Sensor",
+		"iconUrl": "/images/Thermometer_16x16.png",
+		"units": ""
+	}]
+}
