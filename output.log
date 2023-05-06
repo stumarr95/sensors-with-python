@@ -1,0 +1,244 @@
+Connected with result code 0
+This is the latest reading {"deviceId": "000D6FFFFE3CE2A6", "readingTimestamp": "2023-04-10T20:09:04Z", "value": 26.5, "label": "Temperature"}
+Connected with result code 0
+This is the latest reading {"deviceId": "000D6FFFFE3CE2A6", "readingTimestamp": "2023-04-10T20:10:04Z", "value": 27.78, "label": "Temperature"}
+Connected with result code 0
+This is the latest reading {"deviceId": "000D6FFFFE3CE2A6", "readingTimestamp": "2023-04-10T20:11:04Z", "value": 26.66, "label": "Temperature"}
+Connected with result code 0
+This is the latest reading {"deviceId": "000D6FFFFE3CE2A6", "readingTimestamp": "2023-04-10T20:12:04Z", "value": 25.47, "label": "Temperature"}
+Connected with result code 0
+This is the latest reading {"deviceId": "000D6FFFFE3CE2A6", "readingTimestamp": "2023-04-10T20:14:04Z", "value": 25.25, "label": "Temperature"}
+Connected with result code 0
+This is the latest reading {"deviceId": "000D6FFFFE3CE2A6", "readingTimestamp": "2023-04-11T13:21:03Z", "value": 26.84, "label": "Temperature", "deviceType": "temperature"}
+Connected with result code 0
+This is the latest reading {"deviceId": "000D6FFFFE3CE2A6", "readingTimestamp": "2023-04-11T13:22:03Z", "value": 26.92, "label": "Temperature", "deviceType": "temperature"}
+Connected with result code 0
+This is the latest reading {"deviceId": "000D6FFFFE3CE2A6", "readingTimestamp": "2023-04-11T13:23:03Z", "value": 27.09, "label": "Temperature", "deviceType": "temperature"}
+Connected with result code 0
+This is the latest reading {"deviceId": "000D6FFFFE3CE2A6", "readingTimestamp": "2023-04-11T19:23:02Z", "value": 26.12, "label": "Temperature", "deviceType": "Temperature Sensor"}
+Connected with result code 0
+This is the latest reading {"deviceId": "000D6FFFFE3CE2A6", "readingTimestamp": "2023-04-11T19:24:02Z", "value": 26.16, "label": "Temperature", "deviceType": "Temperature Sensor"}
+Traceback (most recent call last):
+  File "/home/atosadmin/py-tests/prod/leap_mqtt_publisher.py", line 38, in <module>
+    client.connect("10.0.30.74", port=1883)
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 914, in connect
+    return self.reconnect()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1044, in reconnect
+    sock = self._create_socket_connection()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 3685, in _create_socket_connection
+    return socket.create_connection(addr, timeout=self._connect_timeout, source_address=source)
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/atosadmin/py-tests/prod/leap_mqtt_publisher.py", line 38, in <module>
+    client.connect("10.0.30.74", port=1883)
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 914, in connect
+    return self.reconnect()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1044, in reconnect
+    sock = self._create_socket_connection()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 3685, in _create_socket_connection
+    return socket.create_connection(addr, timeout=self._connect_timeout, source_address=source)
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/atosadmin/py-tests/prod/leap_mqtt_publisher.py", line 38, in <module>
+    client.connect("10.0.30.74", port=1883)
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 914, in connect
+    return self.reconnect()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1044, in reconnect
+    sock = self._create_socket_connection()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 3685, in _create_socket_connection
+    return socket.create_connection(addr, timeout=self._connect_timeout, source_address=source)
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/atosadmin/py-tests/prod/leap_mqtt_publisher.py", line 38, in <module>
+    client.connect("10.0.30.74", port=1883)
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 914, in connect
+    return self.reconnect()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1044, in reconnect
+    sock = self._create_socket_connection()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 3685, in _create_socket_connection
+    return socket.create_connection(addr, timeout=self._connect_timeout, source_address=source)
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/atosadmin/py-tests/prod/leap_mqtt_publisher.py", line 38, in <module>
+    client.connect("10.0.30.74", port=1883)
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 914, in connect
+    return self.reconnect()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1044, in reconnect
+    sock = self._create_socket_connection()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 3685, in _create_socket_connection
+    return socket.create_connection(addr, timeout=self._connect_timeout, source_address=source)
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/atosadmin/py-tests/prod/leap_mqtt_publisher.py", line 38, in <module>
+    client.connect("10.0.30.74", port=1883)
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 914, in connect
+    return self.reconnect()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1044, in reconnect
+    sock = self._create_socket_connection()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 3685, in _create_socket_connection
+    return socket.create_connection(addr, timeout=self._connect_timeout, source_address=source)
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/atosadmin/py-tests/prod/leap_mqtt_publisher.py", line 38, in <module>
+    client.connect("10.0.30.74", port=1883)
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 914, in connect
+    return self.reconnect()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1044, in reconnect
+    sock = self._create_socket_connection()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 3685, in _create_socket_connection
+    return socket.create_connection(addr, timeout=self._connect_timeout, source_address=source)
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/atosadmin/py-tests/prod/leap_mqtt_publisher.py", line 38, in <module>
+    client.connect("10.0.30.74", port=1883)
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 914, in connect
+    return self.reconnect()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1044, in reconnect
+    sock = self._create_socket_connection()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 3685, in _create_socket_connection
+    return socket.create_connection(addr, timeout=self._connect_timeout, source_address=source)
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/atosadmin/py-tests/prod/leap_mqtt_publisher.py", line 38, in <module>
+    client.connect("10.0.30.74", port=1883)
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 914, in connect
+    return self.reconnect()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1044, in reconnect
+    sock = self._create_socket_connection()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 3685, in _create_socket_connection
+    return socket.create_connection(addr, timeout=self._connect_timeout, source_address=source)
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/atosadmin/py-tests/prod/leap_mqtt_publisher.py", line 38, in <module>
+    client.connect("10.0.30.74", port=1883)
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 914, in connect
+    return self.reconnect()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1044, in reconnect
+    sock = self._create_socket_connection()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 3685, in _create_socket_connection
+    return socket.create_connection(addr, timeout=self._connect_timeout, source_address=source)
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/atosadmin/py-tests/prod/leap_mqtt_publisher.py", line 38, in <module>
+    client.connect("10.0.30.74", port=1883)
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 914, in connect
+    return self.reconnect()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1044, in reconnect
+    sock = self._create_socket_connection()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 3685, in _create_socket_connection
+    return socket.create_connection(addr, timeout=self._connect_timeout, source_address=source)
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/atosadmin/py-tests/prod/leap_mqtt_publisher.py", line 38, in <module>
+    client.connect("10.0.30.74", port=1883)
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 914, in connect
+    return self.reconnect()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1044, in reconnect
+    sock = self._create_socket_connection()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 3685, in _create_socket_connection
+    return socket.create_connection(addr, timeout=self._connect_timeout, source_address=source)
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/atosadmin/py-tests/prod/leap_mqtt_publisher.py", line 38, in <module>
+    client.connect("10.0.30.74", port=1883)
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 914, in connect
+    return self.reconnect()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1044, in reconnect
+    sock = self._create_socket_connection()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 3685, in _create_socket_connection
+    return socket.create_connection(addr, timeout=self._connect_timeout, source_address=source)
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/atosadmin/py-tests/prod/leap_mqtt_publisher.py", line 38, in <module>
+    client.connect("10.0.30.74", port=1883)
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 914, in connect
+    return self.reconnect()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1044, in reconnect
+    sock = self._create_socket_connection()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 3685, in _create_socket_connection
+    return socket.create_connection(addr, timeout=self._connect_timeout, source_address=source)
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/atosadmin/py-tests/prod/leap_mqtt_publisher.py", line 38, in <module>
+    client.connect("10.0.30.74", port=1883)
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 914, in connect
+    return self.reconnect()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1044, in reconnect
+    sock = self._create_socket_connection()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 3685, in _create_socket_connection
+    return socket.create_connection(addr, timeout=self._connect_timeout, source_address=source)
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/atosadmin/py-tests/prod/leap_mqtt_publisher.py", line 38, in <module>
+    client.connect("10.0.30.74", port=1883)
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 914, in connect
+    return self.reconnect()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1044, in reconnect
+    sock = self._create_socket_connection()
+  File "/home/atosadmin/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 3685, in _create_socket_connection
+    return socket.create_connection(addr, timeout=self._connect_timeout, source_address=source)
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
